@@ -1,0 +1,43 @@
+
+.info{
+  margin-top: 25px;
+  font-size: 12px;
+}
+.fa {
+  margin-top: 25px;
+}
+.fa-phone{
+margin-top: 25px;
+}
+.fa-map-marker{
+  margin-top: 25px;
+}
+
+.placeholder {
+   position: relative;
+   text-align: center;
+   height: 200px;
+   margin-right: 0px;
+   background-color: rgb(216, 1, 41);
+   border-bottom: solid white;
+ }
+
+ .content {
+   font-size: 2em;
+ }
+
+ .circle:before {
+  content: ' \25CF';
+  font-size: 100px;
+  color: white;
+  margin-left: 150px;
+}
+#grad1 {
+  background: rgb(216, 1, 41);
+  background: -webkit-linear-gradient(-90deg, rgb(216, 1, 41), rgb(110, 16, 47));
+  background: -o-linear-gradient(-90deg, rgb(216, 1, 41), rgb(110, 16, 47));
+  background: -moz-linear-gradient(-90deg, rgb(216, 1, 41), rgb(110, 16, 47));
+  background: linear-gradient(-90deg, rgb(216, 1, 41), rgb(110, 16, 47));
+  border-top: solid black;
+     margin-right: 0px;
+}

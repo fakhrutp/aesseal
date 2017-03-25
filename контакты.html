@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDuw7pt-RgFSSZFyVN_uO0H7Vx1uX9dCn0'></script>
+   <title>Aesseal</title>
+<link rel="stylesheet" href="font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+  <header>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+    <img style='float:left' src="aesseal.png" class="img-fluid" alt="Логотип"/>
+    <p class="info"><b>Научно-производственное <br>
+объединение «СФЕРА»</b> <br>
+Работаем с 1996 года</p>
+</div>
+<div class="col">
+    <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+  </div>
+  <div class="col">
+    <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+  </div>
+  </div>
+</div>
+
+  </header>
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">О компании</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Сертификаты<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Контакты</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="supportedContentDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Продукция
+  </a>
+      <div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
+          <a class="dropdown-item" href="#">Машине пизда</a>
+          <a class="dropdown-item" href="#">Насосу пизда</a>
+          <a class="dropdown-item" href="#">Ты уволен</a>
+      </ul>
+  </div>
+</nav>
+<div class="row placeholder">
+  <div class="col content">
+    Item
+  </div>
+  <div class="col content">
+    <i class="fa fa-envelope"></i>
+        Item
+      </div>
+  <div class="col content">
+    <i class="fa fa-map-marker"></i>Item</div>
+  <div class="w-100"></div>
+  <div class="col content"> Item</div>
+  <div class="col content">
+    <i class="fa fa-clock-o"></i>Item</div>
+  <div class="col content">
+      <i class="fa fa-phone"></i>
+    Item
+  </div>
+</div>
+<div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-generator.com/ru'>Встроенные GOOGLE MAPS</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=1d13ae287a819d9cd0e5b325c00cf2d16c0c2eab'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(59.9395994,30.42971179999995),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(59.9395994,30.42971179999995)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br>магнитогорская, 51<br> saint-petersburg<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+</body>
+
+
+</html>
