@@ -55,5 +55,40 @@ a.back-to-top {
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 40px;
+}
 
+footer {
+  overflow: hidden;
+  height: 100%;
+  color: black;
+  background-color: #AA3939;
+  margin-right: 0px;
+  width: 100%;
+}
+.fot{
+  width: 350px;
+}
+p.fot {
+padding-top: 50px;
+margin-left: 80px;
+margin-right: 0px;
+color: white;
+overflow: hidden;
+}
+a {
+  color: #FFA500;
+  text-decoration: none;
+}
+a:hover {
+  color: #FFA500;
+  text-decoration: underline;
+}
+.col-md-3.inf {
+  float: right !important;
+  padding-top: 75px;
+}
+.fd {
+  color: white;
+  padding-left: 80px;
+  overflow: hidden;
 }
