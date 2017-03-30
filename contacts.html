@@ -16,10 +16,11 @@ function getLocation() {
     }
 }
 function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude + 
-    "<br>Longitude: " + position.coords.longitude; 
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
 }
 </script>
+<script src="jquery-3.2.0.min.js"></script>
 <title>Contacts</title>
 <link rel="stylesheet" href="font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
@@ -91,6 +92,8 @@ function showPosition(position) {
     Item
   </div>
 </div>
+<a href="#" class="back-to-top">Back to Top</a>
+<script src="script.js"></script>
 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3f700748ead8d6cdc864381faa1d5f4a41697a2a3d63fc90edab4104ed0d0269&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=false"></script>
 
 </body>

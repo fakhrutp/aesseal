@@ -50,9 +50,10 @@ a.back-to-top {
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
-	background: white url("up-arrow.png") no-repeat center 35%;
+  opacity: 0.5;
+	background: url("up-arrow.png") no-repeat center 30% !important;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 40px;
-  box-shadow: 4px 4px 4px black;
+
 }
