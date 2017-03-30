@@ -6,8 +6,21 @@
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-   <title>Main</title>
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude; 
+}
+</script>
+<title>Contacts</title>
 <link rel="stylesheet" href="font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
@@ -38,7 +51,7 @@
    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">О Компании</a>
+  <a class="navbar-brand" href="#">О компании</a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto nav-pills">
@@ -53,47 +66,33 @@
               Продукция
   </a>
       <div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
-          <a class="dropdown-item" href="#">Торцевые уплотнения</a>
-          <a class="dropdown-item" href="#">Торцевые уплотнения</a>
-          <a class="dropdown-item" href="#">Торцевые уплотнения</a>
-  </a>
-  	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto nav-pills">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Сертификаты<span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Контакты</a>
-      </li>        
-        
+          <a class="dropdown-item" href="#">Машине пизда</a>
+          <a class="dropdown-item" href="#">Насосу пизда</a>
+          <a class="dropdown-item" href="#">Ты уволен</a>
+      </ul>
   </div>
 </nav>
 <div class="row placeholder">
   <div class="col content">
+    Item
+  </div>
+  <div class="col content">
+    <i class="fa fa-envelope"></i>
         Item
       </div>
-  <div class="col content">Item</div>
+  <div class="col content">
+    <i class="fa fa-map-marker"></i>Item</div>
   <div class="w-100"></div>
-  <div class="col content">Item</div>
-  <div class="col content">Item</div>
-</div>
-<div id="grad1">
-<div class="row" >
-  <div class="col">
-        <span class="circle"></span>
-      </div>
-  <div class="col">
-    <span class="circle"></span>
-  </div>
-  <div class="w-100"></div>
-  <div class="col ">
-    <span class="circle"></span>
-  </div>
-  <div class="col ">
-    <span class="circle"></span>
+  <div class="col content"> Item</div>
+  <div class="col content">
+    <i class="fa fa-clock-o"></i>Item</div>
+  <div class="col content">
+      <i class="fa fa-phone"></i>
+    Item
   </div>
 </div>
-</div>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3f700748ead8d6cdc864381faa1d5f4a41697a2a3d63fc90edab4104ed0d0269&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=false"></script>
+
 </body>
 
 
