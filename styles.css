@@ -2,15 +2,19 @@
 .info{
   margin-top: 25px;
   font-size: 12px;
+  overflow: hidden;
 }
 .fa {
+    overflow: hidden;
   margin-top: 25px;
 }
 .fa-phone{
 margin-top: 25px;
+  overflow: hidden;
 }
 .fa-map-marker{
   margin-top: 25px;
+    overflow: hidden;
 }
 
 .placeholder {
@@ -20,10 +24,12 @@ margin-top: 25px;
    margin-right: 0px;
    background-color: rgb(216, 1, 41);
    border-bottom: solid white;
+     overflow: hidden;
  }
 
  .content {
    font-size: 2em;
+     overflow: hidden;
  }
 
  .circle:before {
@@ -31,6 +37,7 @@ margin-top: 25px;
   font-size: 100px;
   color: white;
   margin-left: 150px;
+    overflow: hidden;
 }
 #grad1 {
   background: rgb(216, 1, 41);
@@ -40,6 +47,7 @@ margin-top: 25px;
   background: linear-gradient(-90deg, rgb(216, 1, 41), rgb(110, 16, 47));
   border-top: solid black;
      margin-right: 0px;
+       overflow: hidden;
 }
 a.back-to-top {
 	display: none;
@@ -55,6 +63,7 @@ a.back-to-top {
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 40px;
+    overflow: hidden;
 }
 
 footer {
@@ -67,6 +76,7 @@ footer {
 }
 .fot{
   width: 350px;
+    overflow: hidden;
 }
 p.fot {
 padding-top: 50px;
@@ -86,6 +96,7 @@ a:hover {
 .col-md-3.inf {
   float: right !important;
   padding-top: 75px;
+    overflow: hidden;
 }
 .fd {
   color: white;
