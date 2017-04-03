@@ -103,3 +103,8 @@ a:hover {
   padding-left: 80px;
   overflow: hidden;
 }
+.col.content{
+  text-align: center;
+  border: solid white;
+  padding: 70px 0;
+}
