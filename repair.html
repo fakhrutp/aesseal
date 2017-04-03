@@ -6,22 +6,8 @@
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script>
-var x = document.getElementById("demo");
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-    }
-}
-function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude +
-    "<br>Longitude: " + position.coords.longitude;
-}
-</script>
 <script src="jquery-3.2.0.min.js"></script>
-<title>Contacts</title>
+   <title>repair</title>
 <link rel="stylesheet" href="font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
@@ -52,16 +38,10 @@ function showPosition(position) {
    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="main.html">О компании</a>
+  <a class="navbar-brand" href="#">О компании</a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto nav-pills">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Сертификаты<span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Контакты</a>
-      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="supportedContentDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Продукция
@@ -70,31 +50,54 @@ function showPosition(position) {
           <a class="dropdown-item" href="#">Торцевые уплотнения</a>
           <a class="dropdown-item" href="#">Торцевые уплотнения</a>
           <a class="dropdown-item" href="#">Торцевые уплотнения</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto nav-pills">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="supportedContentDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ремонт
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active"T href="#">Сертификаты<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacts.html">Контакты</a>
+      </li>
       </ul>
   </div>
 </nav>
 <div class="row placeholder">
   <div class="col content">
-    Item
-  </div>
-  <div class="col content">
-    <i class="fa fa-envelope"></i>
         Item
       </div>
-  <div class="col content">
-    <i class="fa fa-map-marker"></i>Item</div>
+  <div class="col content">Item</div>
   <div class="w-100"></div>
-  <div class="col content"> Item</div>
-  <div class="col content">
-    <i class="fa fa-clock-o"></i>Item</div>
-  <div class="col content">
-      <i class="fa fa-phone"></i>
-    Item
+  <div class="col content">Item</div>
+  <div class="col content">Item</div>
+</div>
+<div id="grad1">
+<div class="row" >
+  <div class="col">
+        <span class="circle"></span>
+      </div>
+  <div class="col">
+    <span class="circle"></span>
   </div>
+  <div class="w-100"></div>
+  <div class="col ">
+    <span class="circle"></span>
+  </div>
+  <div class="col ">
+    <span class="circle"></span>
+  </div>
+</div>
 </div>
 <a href="#" class="back-to-top">Back to Top</a>
 <script src="script.js"></script>
-<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3f700748ead8d6cdc864381faa1d5f4a41697a2a3d63fc90edab4104ed0d0269&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=false"></script>
 <footer>
   <div class="row">
   <div class="col">
