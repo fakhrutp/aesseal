@@ -20,7 +20,7 @@ margin-top: 25px;
 .placeholder {
    position: relative;
    text-align: center;
-   height: 200px;
+   height: 100%;
    margin-right: 0px;
    background-color: rgb(216, 1, 41);
    border-bottom: solid white;
@@ -189,15 +189,18 @@ a:hover {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
    overflow: hidden;
-  margin-top: 25px;}
-<<<<<<< HEAD
+  margin-top: 25px;
+}
   .table {
-    width: 100%;
     max-width: 100%;
-    margin-bottom: 0px;
     display: table;
     border-color: grey;
+    table-layout: auto;
+    overflow: hidden;
 }
-}}
-=======
->>>>>>> 5c801ad9d5b8d66e988b26960d351ae7575fcb93
+td {
+    overflow:hidden;
+}
+#map {
+  position: relative;
+}
