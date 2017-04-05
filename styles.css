@@ -193,6 +193,11 @@ a:hover {
 td {
     overflow:hidden;
 }
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 #map {
   position: relative;
 }
