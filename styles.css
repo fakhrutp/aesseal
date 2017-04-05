@@ -31,14 +31,6 @@ margin-top: 25px;
    font-size: 2em;
      overflow: hidden;
  }
-
- .circle:before {
-  content: ' \25CF';
-  font-size: 100px;
-  color: white;
-  margin-left: 150px;
-    overflow: hidden;
-}
 #grad1 {
   background: rgb(216, 1, 41);
   background: -webkit-linear-gradient(-90deg, rgb(216, 1, 41), rgb(110, 16, 47));
@@ -203,4 +195,12 @@ td {
 }
 #map {
   position: relative;
+}
+.circle {
+  margin: 40px;
+  color: white;
+  overflow: hidden;
+}
+.inform {
+  margin-top: 15px;
 }
