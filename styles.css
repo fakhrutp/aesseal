@@ -59,7 +59,7 @@ a.back-to-top {
 	right: 20px;
 	bottom: 20px;
   opacity: 0.5;
-	background: url("up-arc.png") no-repeat center 30% !important;
+	background: url("up-arrow.png") no-repeat center 30% !important;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 40px;
