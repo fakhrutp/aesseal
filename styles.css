@@ -138,18 +138,18 @@ a:hover {
     text-decoration: none;
     text-align: center;
 }
-.col-sm-6 {    
+.col-sm-6 {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
     margin:auto;
     border: 15px;
-}    
+}
 :after, :before {
     box-sizing: border-box;
 }
-.container, .relative 
+.container, .relative
     position: relative;
 }
 .container {
@@ -168,9 +168,9 @@ a:hover {
     z-index: 10
     font-size: 18px;
     color:#000 ;
-}     
 }
-.img {    
+}
+.img {
     margin-left:auto;
     position: absolute;
     right: 0px;
