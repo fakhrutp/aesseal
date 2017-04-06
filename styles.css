@@ -1,4 +1,9 @@
 
+.body {
+    margin: 0;
+    padding: 0;
+}
+
 .info{
   margin-top: 25px;
   font-size: 12px;
@@ -111,6 +116,8 @@ a:hover {
 .theme-red {
     color: #fff;
     background-color:  #8A3E3E;
+    position: relative;
+    opacity: 0.82;
 }
 .wrapper {position:relative;
     box-sizing: border-box;
@@ -129,15 +136,14 @@ a:hover {
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
+    margin: auto;
 
 }
 
 :after, :before {
     box-sizing: border-box;
 }
-.container, .relative
-    position: relative;
-}
+
 .container {
     clear: both;
     margin-right: auto;
@@ -156,6 +162,9 @@ a:hover {
     padding-right: 0px;
     padding-bottom: 15px;
     padding-left: 0px;
+    background: #ffffff url("bckgrnd.jpg") no-repeat right top;
+
+
   }
 .text-1 {
     position: relative;
@@ -296,8 +305,7 @@ td {
 }
 
 .cert {
-  align-self: center;
-  margin-left: 484px;
+  margin: auto;
 }
 .zag {
   margin: 50px;
