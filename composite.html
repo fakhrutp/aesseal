@@ -8,22 +8,8 @@
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script>
-var x = document.getElementById("demo");
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-    }
-}
-function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude +
-    "<br>Longitude: " + position.coords.longitude;
-}
-</script>
 <script src="jquery-3.2.0.min.js"></script>
-<title>Контакты</title>
+   <title>Компонентные уплотнители</title>
 <link rel="stylesheet" href="font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
@@ -68,12 +54,13 @@ function showPosition(position) {
               Продукция
   </a>
       <div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
-           <a class="dropdown-item" href="#">Компонентные уплотнения</a>
+          <a class="dropdown-item" href="#">Компонентные уплотнения</a>
           <a class="dropdown-item" href="#">Картриджные уплотнения</a>
           <a class="dropdown-item" href="#">Сухие газовые уплотнения</a>
            <a class="dropdown-item" href="#">Системы обеспечения работы уплотнений</a>
             <a class="dropdown-item" href="#">Защита подшипников</a>
              <a class="dropdown-item" href="#">Сальниковая набивка</a>
+
       </div>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <li class="nav-item dropdown">
@@ -82,12 +69,9 @@ function showPosition(position) {
 </a>
     <div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
         <a class="dropdown-item" href="repair_about.html">О ремонте</a>
-
-        <a class="dropdown-item" href="#">Ремонт продукции AESEAL</a>
-
         <a class="dropdown-item" href="#">Ремонт продукции AESSEAL</a>
         <a class="dropdown-item" href="#">Ремонт другой продукции</a>
-          <a class="dropdown-item" href="certificates.html">Сертификаты</a>
+        <a class="dropdown-item" href="#">Сертификаты</a>
 
     </div>
       <li class="nav-item">
@@ -97,80 +81,27 @@ function showPosition(position) {
       </ul>
   </div>
 </nav>
-<div class="row placeholder">
-  <table class="table" style="font-size:20px;">
-  <tbody>
-    <tr>
-      <td rowspan="3">
-      <img src="images/contacts.jpg" alt="БЦ Магнитка" style="max-width: 200px;
-    height: 200px; margin-left: auto;
-    position: relative;
-    left: 0px;
-    width: 300px;
-    border: 1px solid #fff;
-    padding: 0px;
-    overflow: hidden;">
-
-      </td>
-      <td>
-        <span class="fa fa-clock-o">
-        </span>
-      </td>
-      <td>
-        ПН&nbsp;- ПТ, с&nbsp;10:00
-        до&nbsp;19:00
-      </td>
-    <td>
-      <span class="fa fa-phone">
-      </span>
-      </td>
-      <td>
-        +7 (812) 322-59-90</td>
-        </tr>
-
-      <tr>
-      <td>
-        <span class="fa fa-map-marker">
-        </span>
-      </td>
-      <td>
-        "Санкт-Петербург, ул.&nbsp;Магнитогорская, д.&nbsp;51,"
-        <br>
-        "
-        БЦ "Магнитка", офис 213"
-        <br>
-        <span style="font-size:14px;">(ст. м. Ладожская)
-        </span>
-      </td>
-    <td>
-      <span class="fa fa-mobile">
-      </span>
-      </td>
-      <td>
-       +7 (812) 903-37-38
-       <br>
-       <span style="font-size:14px;">Можно звонить с&nbsp;7:00 до&nbsp;23:00</span></td>
-        </tr>
-        <tr>
-    <td>
-      <span class="fa fa-envelope">
-      </span>
-      </td>
-      <td>
-        sales@sfera-spb.ru</td>
-        <td></td>
-        <td></td>
-        </tr>
-
-  </tbody>
-  </table>
+<div class="zag">
+<h2>Компонентные уплотнения</h2>
 </div>
-
+<div class="row">
+  <div class="col">col</div>
+  <div class="col">col</div>
+  <div class="w-100"></div>
+  <div class="col">col</div>
+  <div class="col">col</div>
+  <div class="w-100"></div>
+  <div class="col">col</div>
+  <div class="col">col</div>
+  <div class="w-100"></div>
+  <div class="col">col</div>
+  <div class="col">col</div>
+  <div class="w-100"></div>
+  <div class="col">col</div>
+  <div class="col">col</div>
+</div>
 <a href="#" class="back-to-top">Back to Top</a>
 <script src="script.js"></script>
-<div id="map">
-<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3f700748ead8d6cdc864381faa1d5f4a41697a2a3d63fc90edab4104ed0d0269&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=false"></script>
-</div>
 <footer>
   <div class="row">
   <div class="col">

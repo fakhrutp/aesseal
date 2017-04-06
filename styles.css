@@ -125,19 +125,13 @@ a:hover {
     border-color: #000;
     font-size: 18px;
     font-weight: 700;
-    -webkit-transition-duration: .2s;
     transition-duration: .2s;
     text-decoration: none;
     text-align: center;
+    vertical-align: middle;
+
 }
-.col-sm-6 {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin:auto;
-    border: 15px;
-}
+
 :after, :before {
     box-sizing: border-box;
 }
@@ -145,14 +139,23 @@ a:hover {
     position: relative;
 }
 .container {
+    clear: both;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    content: " ";
+    display: table;
+    position: relative;
   }
   section.redirect.cols-2 {
     text-align: center;
     color: #363f44;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
   }
 .text-1 {
     position: relative;
@@ -171,18 +174,7 @@ a:hover {
     padding: 10px;
 
   }
-  .glyphicon {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-   overflow: hidden;
-  margin-top: 25px;
-}
+  
   .table {
     max-width: 100%;
     display: table;
@@ -307,3 +299,5 @@ td {
   align-self: center;
   margin-left: 484px;
 }
+
+
