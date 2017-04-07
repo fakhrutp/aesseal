@@ -105,6 +105,13 @@ a:hover {
   border: solid white;
   padding: 70px 0;
 }
+.col-sm-6 {
+ 
+  padding: 15px;
+
+ 
+
+}
 .element {
     background-size: cover;
     background-position: 50% 50%;
@@ -121,6 +128,7 @@ a:hover {
 }
 .wrapper {position:relative;
     box-sizing: border-box;
+  
     }
 .btn {border-width: 2px;
     padding: .8em 1.5em;
@@ -135,8 +143,9 @@ a:hover {
     transition-duration: .2s;
     text-decoration: none;
     text-align: center;
-    vertical-align: middle;
+    padding: 15px;
     margin: auto;
+    margin-bottom: 15px;
 
 }
 
